@@ -55,6 +55,7 @@ module.exports = options => {
             })
         ],
         devServer: {
+            host: '0.0.0.0',
             contentBase: "public",
             port: 3000,
             headers: {
